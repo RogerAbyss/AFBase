@@ -28,10 +28,44 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/roger_ren@qq.com/AFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.static_framework = true
+  # s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'AFramework/Classes/**/*'
-  
+
+  s.dependency 'Moya', '14.0.0'
+  s.dependency 'Moya/RxSwift', '14.0.0'
+  s.dependency 'RxCocoa', '5.1.1'
+  s.dependency 'SwiftyUserDefaults', '4.0.0'
+  s.dependency 'SwiftyJSON'
+  s.dependency 'Kingfisher'
+  s.dependency 'IQKeyboardManagerSwift'
+  s.dependency 'CryptoSwift', '1.3.2'
+  s.dependency 'SwiftyRSA', '1.5.0'
+  s.dependency 'ReachabilitySwift'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'Yams'
+  s.dependency 'SnapKit', '5.0.1'
+  s.dependency 'MJRefresh'
+  s.dependency 'SwifterSwift', '5.2.0'
+
+  s.dependency 'Cache', '5.3.0'
+  s.dependency 'Sheeeeeeeeet', '3.1.1'
+  # 多语言切换
+  s.dependency 'Localize-Swift', '3.1.0'
+  # 控制台
+  s.dependency 'SwiftyBeaver', '1.9.2'
+  s.dependency 'EmptyDataSet-Swift', '4.2.0'
+
+  # 计划优化
+  s.dependency 'PopupDialog', '1.1.1' # ios-10
+
+  s.dependency 'DoraemonKit/Core', '1.2.0'
+  s.dependency 'DoraemonKit/WithLogger', '1.2.0'
+  s.dependency 'DoraemonKit/WithGPS', '1.2.0'
+  s.dependency 'DoraemonKit/WithLoad', '1.2.0'
+
   # s.resource_bundles = {
   #   'AFramework' => ['AFramework/Assets/*.png']
   # }

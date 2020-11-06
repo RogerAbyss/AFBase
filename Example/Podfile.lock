@@ -1,0 +1,250 @@
+PODS:
+  - AFramework (0.1.0):
+    - Cache (= 5.3.0)
+    - CryptoSwift (= 1.3.2)
+    - DoraemonKit/Core (= 1.2.0)
+    - DoraemonKit/WithGPS (= 1.2.0)
+    - DoraemonKit/WithLoad (= 1.2.0)
+    - DoraemonKit/WithLogger (= 1.2.0)
+    - EmptyDataSet-Swift (= 4.2.0)
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Localize-Swift (= 3.1.0)
+    - MJRefresh
+    - Moya (= 14.0.0)
+    - Moya/RxSwift (= 14.0.0)
+    - PopupDialog (= 1.1.1)
+    - ReachabilitySwift
+    - RxCocoa (= 5.1.1)
+    - Sheeeeeeeeet (= 3.1.1)
+    - SnapKit (= 5.0.1)
+    - SVProgressHUD
+    - SwifterSwift (= 5.2.0)
+    - SwiftyBeaver (= 1.9.2)
+    - SwiftyJSON
+    - SwiftyRSA (= 1.5.0)
+    - SwiftyUserDefaults (= 4.0.0)
+    - Yams
+  - Alamofire (5.4.0)
+  - BSBacktraceLogger (0.0.1)
+  - Cache (5.3.0)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - CryptoSwift (1.3.2)
+  - DoraemonKit/Core (1.2.0):
+    - BSBacktraceLogger
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DoraemonKit/WithGPS (1.2.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DoraemonKit/WithLoad (1.2.0):
+    - BSBacktraceLogger
+    - DoraemonKit/Core
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DoraemonKit/WithLogger (1.2.0):
+    - BSBacktraceLogger
+    - CocoaLumberjack
+    - DoraemonKit/Core
+    - fishhook
+    - PNChart
+    - "UITextView+Placeholder"
+  - DynamicBlurView (4.1.0)
+  - EmptyDataSet-Swift (4.2.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - fishhook (0.2)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - Localize-Swift (3.1.0)
+  - MJRefresh (3.5.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - PNChart (0.8.9):
+    - UICountingLabel (~> 1.2.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Quick (1.2.0)
+  - ReachabilitySwift (5.0.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - Sheeeeeeeeet (3.1.1)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftyBeaver (1.9.2)
+  - SwiftyJSON (5.0.0)
+  - SwiftyRSA (1.5.0):
+    - SwiftyRSA/ObjC (= 1.5.0)
+  - SwiftyRSA/ObjC (1.5.0)
+  - SwiftyUserDefaults (4.0.0)
+  - UICountingLabel (1.2.0)
+  - "UITextView+Placeholder (1.4.0)"
+  - Yams (4.0.0)
+
+DEPENDENCIES:
+  - AFramework (from `../`)
+  - Cache (= 5.3.0)
+  - CryptoSwift (= 1.3.2)
+  - DoraemonKit/Core (= 1.2.0)
+  - DoraemonKit/WithGPS (= 1.2.0)
+  - DoraemonKit/WithLoad (= 1.2.0)
+  - DoraemonKit/WithLogger (= 1.2.0)
+  - EmptyDataSet-Swift (= 4.2.0)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Localize-Swift (= 3.1.0)
+  - MJRefresh
+  - Moya (= 14.0.0)
+  - Moya/RxSwift (= 14.0.0)
+  - Nimble (~> 7.0)
+  - Nimble-Snapshots (~> 6.3.0)
+  - PopupDialog (= 1.1.1)
+  - Quick (~> 1.2.0)
+  - ReachabilitySwift
+  - RxCocoa (= 5.1.1)
+  - Sheeeeeeeeet (= 3.1.1)
+  - SnapKit (= 5.0.1)
+  - SVProgressHUD
+  - SwifterSwift (= 5.2.0)
+  - SwiftyBeaver (= 1.9.2)
+  - SwiftyJSON
+  - SwiftyRSA (= 1.5.0)
+  - SwiftyUserDefaults (= 4.0.0)
+  - Yams
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSBacktraceLogger
+    - Cache
+    - CocoaLumberjack
+    - CryptoSwift
+    - DoraemonKit
+    - DynamicBlurView
+    - EmptyDataSet-Swift
+    - FBSnapshotTestCase
+    - fishhook
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Localize-Swift
+    - MJRefresh
+    - Moya
+    - Nimble
+    - Nimble-Snapshots
+    - PNChart
+    - PopupDialog
+    - Quick
+    - ReachabilitySwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Sheeeeeeeeet
+    - SnapKit
+    - SVProgressHUD
+    - SwifterSwift
+    - SwiftyBeaver
+    - SwiftyJSON
+    - SwiftyRSA
+    - SwiftyUserDefaults
+    - UICountingLabel
+    - "UITextView+Placeholder"
+    - Yams
+
+EXTERNAL SOURCES:
+  AFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFramework: e5f0a155152c93edaafef28b10f76d434b44c887
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  Cache: 48762993ec44e1d93483c4d4a13edd18452326f4
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  CryptoSwift: 093499be1a94b0cae36e6c26b70870668cb56060
+  DoraemonKit: 800be28118fb88d57eadbded1222746d7c55cb8a
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Localize-Swift: 4bed4f0ccac8be2ec3517ee359da80ba2adb0fae
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  PNChart: 84774d225c2126ded6c93d4dbe6ae98c3a73c2d2
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Sheeeeeeeeet: 06a94014a0ecb66785023962bcb4020beab6e585
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftyBeaver: b8239f6bfe9e1ea3303e6139abc8c24228081d84
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyRSA: 6e528fb1b1a87d5111c48081083b141d6d65f1cf
+  SwiftyUserDefaults: 6a1951df1daa19337862b677dd9a4b9bd4c288cd
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+  "UITextView+Placeholder": d7b0c400921f66523f3a85d74f774512e14f6502
+  Yams: 9d49b85824751ee13d31e9ec6617c4dfb9a8c3cd
+
+PODFILE CHECKSUM: 9703a4b08bf88c3943fe9bc2c8580489937b6432
+
+COCOAPODS: 1.10.0

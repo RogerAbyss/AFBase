@@ -1,0 +1,6 @@
+framework module AFramework {
+  umbrella header "AFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
