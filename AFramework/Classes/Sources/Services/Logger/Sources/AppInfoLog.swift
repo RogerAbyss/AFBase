@@ -15,9 +15,6 @@ class AppInfoLog: NSObject {
         let identifier = PlistUtil.bundleIndentifier
         
         var isDebug = "生产模式"
-        #if DEBUG
-        isDebug = "调试模式"
-        #endif
     
         log.debug("""
             -------------------------------

@@ -61,14 +61,9 @@ TODO: Add long description of the pod here.
   # 计划优化
   s.dependency 'PopupDialog', '1.1.1' # ios-10
 
-  s.dependency 'DoraemonKit/Core', '1.2.0'
-  s.dependency 'DoraemonKit/WithLogger', '1.2.0'
-  s.dependency 'DoraemonKit/WithGPS', '1.2.0'
-  s.dependency 'DoraemonKit/WithLoad', '1.2.0'
-
-  # s.resource_bundles = {
-  #   'AFramework' => ['AFramework/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'AFramework' => ['AFramework/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

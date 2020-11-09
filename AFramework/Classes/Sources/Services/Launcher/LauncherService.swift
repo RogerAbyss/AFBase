@@ -14,7 +14,6 @@ public class LauncherService {
     static public func setup() {
         #if DEBUG
             LogService.setup()
-            DebuggerService.setup()
         #endif
     
         NetMonitorService.setup()

@@ -16,9 +16,5 @@ func += <KeyType, ValueType> ( left: inout Dictionary<KeyType, ValueType>, right
 public extension Dictionary {
     mutating func add(_ dictionary: Dictionary) {
         self += dictionary
-        
-        #if DEBUG
-//        log.info("🍬 参数:" + self.description)
-        #endif
     }
 }

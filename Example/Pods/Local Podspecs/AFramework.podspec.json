@@ -83,18 +83,11 @@
     ],
     "PopupDialog": [
       "1.1.1"
-    ],
-    "DoraemonKit/Core": [
-      "1.2.0"
-    ],
-    "DoraemonKit/WithLogger": [
-      "1.2.0"
-    ],
-    "DoraemonKit/WithGPS": [
-      "1.2.0"
-    ],
-    "DoraemonKit/WithLoad": [
-      "1.2.0"
+    ]
+  },
+  "resource_bundles": {
+    "AFramework": [
+      "AFramework/Assets/*.png"
     ]
   }
 }

@@ -17,9 +17,6 @@ public class PlistUtil {
 
     public static func appDescription() -> String {
         var isTest: String = ""
-        #if DEBUG
-        isTest = "(测试版)"
-        #endif
         
         return "版本号\(isTest) \(PlistUtil.version)"
 //        return "\(PlistUtil.name)\(isTest) v\(PlistUtil.version)"
