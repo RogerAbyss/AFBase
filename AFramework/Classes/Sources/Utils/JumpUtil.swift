@@ -9,7 +9,14 @@ import Foundation
 
 
 public protocol Jumpable {
+    @available(*, deprecated, message: "简化写法")
     static var jumpIdentifier: String { get }
+    
+    static var identifier: String { get }
+}
+
+public extension Jumpable {
+    static var jumpIdentifier: String { return identifier }
 }
 
 public class JumperUtil {
