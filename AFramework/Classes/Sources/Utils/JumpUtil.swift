@@ -17,6 +17,7 @@ public protocol Jumpable {
 
 public extension Jumpable {
     static var jumpIdentifier: String { return identifier }
+    static var identifier: String { return jumpIdentifier }
 }
 
 public class JumperUtil {
