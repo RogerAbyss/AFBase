@@ -18,18 +18,18 @@ class FrameworkReportLog: NSObject {
      🔈 🔇 🔕 🍏 🍎 🍭 🍫 🍿
      🥎🧲 🧹⭐️ ✨ ⚡️💥 🔥 ☃️💧
      */
-    static func report(_ detail: Bool = false) {
+    static func report() {
         
         FrameworkReportLog.logLogo()
-        if detail {
+        #if DEBUG
             FrameworkReportLog.logEmoji()
-        }
+        #endif
     }
     
     static func logLogo() {
         print("""
         -------------------------------
-        🌈 AFramework Loading...
+        🌈 AFramework [\(PlistUtil.version)]
 
         by Abyss(roger_ren@qq.com)
         -------------------------------
@@ -39,7 +39,7 @@ class FrameworkReportLog: NSObject {
     static func logEmoji() {
         log.verbose("""
         ----------------------------
-                🌈 emoji
+                Emoji
         ----------------------------
         🌈 AFramework
         🔥 Error
