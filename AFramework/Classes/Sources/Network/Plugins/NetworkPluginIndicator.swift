@@ -27,7 +27,7 @@ final public class NetworkPluginIndicator: PluginType {
     
     public func willSend(_ request: RequestType, target: TargetType) {
         guard (target as! NetworkTargetType).backgroundable == false else { return }
-        log.debug("🖥 HUD \(target.path)")
+        log.debug("🌱 [HUD] 会出现hud的接口:\n \(target.path)")
         NetworkPluginIndicator.numberOfRequests += 1
     }
     

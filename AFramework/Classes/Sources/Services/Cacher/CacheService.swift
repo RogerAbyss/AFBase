@@ -44,7 +44,7 @@ public class CacheService {
             name: PlistUtil.bundleIndentifier,
             expiry: .seconds(60*60 + 60*60*8),
             maxSize: 20000,
-            directory: try! FileManager.default.url(for: .documentDirectory,
+            directory: try! FileManager.default.url(for: .cachesDirectory,
                                                     in: .userDomainMask,
                                                     appropriateFor: nil,
                                                     create: true).appendingPathComponent("httpCache"),
@@ -68,7 +68,7 @@ public class CacheService {
     
     private func setupImageCache() -> ImageCache? {
         do {
-            let path = try! FileManager.default.url(for: .documentDirectory,
+            let path = try! FileManager.default.url(for: .cachesDirectory,
                                                       in: .userDomainMask,
                                                       appropriateFor: nil,
                                                       create: true).appendingPathComponent("imageCache")

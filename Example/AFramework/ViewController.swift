@@ -8,19 +8,16 @@
 
 import UIKit
 import AFramework
+import SwiftyBeaver
 
 class ViewController: UIViewController, Jumpable {
     static var identifier: String = "ViewController"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let image = Assets.back
         
-        print(image)
-        
-        print("identifier:" + ViewController.identifier)
-        print("jumpIdentifier:" + ViewController.jumpIdentifier)
+        log.debug("identifier:" + ViewController.identifier)
+        log.debug("jumpIdentifier:" + ViewController.jumpIdentifier)
     }
 
     override func didReceiveMemoryWarning() {

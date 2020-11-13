@@ -103,10 +103,7 @@ target 'AFramework_Example' do
   
   # 测试助手 =====================================================
   # https://github.com/didi/DoraemonKit
-  pod 'DoraemonKit/Core', '1.2.0'
-  pod 'DoraemonKit/WithLogger', '1.2.0'
-  pod 'DoraemonKit/WithGPS', '1.2.0'
-  pod 'DoraemonKit/WithLoad', '1.2.0'
+  pod 'DoraemonKit', '3.0.4', :configurations => ['Debug','Adhoc','Enterprise']
   # pod 'DoraemonKit/Core', '1.2.0', :configurations => ['Debug','Adhoc','Enterprise']
   # pod 'DoraemonKit/WithLogger', '1.2.0', :configurations => ['Debug','Adhoc','Enterprise']
   # pod 'DoraemonKit/WithGPS', '1.2.0', :configurations => ['Debug','Adhoc','Enterprise']

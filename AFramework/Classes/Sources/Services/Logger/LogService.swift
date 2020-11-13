@@ -31,9 +31,15 @@ public class LogService {
         log.addDestination(console)
         log.addDestination(file)
         
+        let path = try! FileManager.default.url(for: .cachesDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
+            
+        print(
+            """
+            🌈 日志管理器: SwiftyBeaver(\(SwiftyBeaver.version))
+            \(path)swiftybeaver.log
+            """)
+        
         FrameworkReportLog.report()
         AppInfoLog.report()
-        
-//        log.debug(CacheService.default.httpCache)
     }
 }

@@ -60,7 +60,6 @@ class FrameworkReportLog: NSObject {
         🌟 Refresh
         ☀️ Pay
         
-        💰 Analsys - money
         🔔 Notification
         🔒 Encrypt
         👮🏻‍♀️ Reporter
@@ -70,7 +69,9 @@ class FrameworkReportLog: NSObject {
         🍬 Touch
         ☠️ Skeleton
 
-        🖥 HUD
+        💰 Analsys - money
+
+        🌱 可能关注的消息
 
         Platform: ⌚️ 📱 💻 🖥
         ----------------------------
