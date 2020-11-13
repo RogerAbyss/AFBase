@@ -15,7 +15,7 @@ final public class NetworkPluginHud: PluginType {
         log.debug("🚀 Netwrok插件-Hud 开启")
     }
     
-    public func process(_ result: Result<Response, MoyaError>, target: TargetType) -> Result<Response, MoyaError> {        
+    public func process(_ result: Result<Response, MoyaError>, target: TargetType) -> Result<Response, MoyaError> {
         switch result {
         case .success(let response):
             if 200..<400 ~= response.statusCode {
@@ -35,14 +35,17 @@ final public class NetworkPluginHud: PluginType {
                     Alert.showAlertSimple(message: msg)
                 }
             } else {
+                log.debug("🚀 [NetworkPluginHud] success: [\(response.statusCode)]")
+                Hud.show(type: .error, text: "🚀 [Network] 服务器开小差了 [\(response.statusCode)]")
             }
             
             break
         case .failure(let error):
-            if error.errorCode == 404 || error.errorCode == 500 {
-                Hud.show(type: .error, text: error.errorDescription ?? "\("AFrameworkNoNetwork".localized()) [\(error.errorCode)]")
-            }
+            log.debug("🚀 [NetworkPluginHud] failure: [\(error.errorCode)]")
             
+            if error.errorCode != 6 {
+                Hud.show(type: .error, text: "🚀 [Network] \(error.errorCode) \(error.errorDescription ?? "")")
+            }
             break
         }
         
