@@ -18,6 +18,9 @@ class ViewController: UIViewController, Jumpable {
         
         log.debug("identifier:" + ViewController.identifier)
         log.debug("jumpIdentifier:" + ViewController.jumpIdentifier)
+        
+        log.debug("123".aes_1())
+        log.debug("123".aes())
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,3 +30,19 @@ class ViewController: UIViewController, Jumpable {
 
 }
 
+
+public extension String {
+    func aes_1() -> String {
+        let result = try! Security.aes().encrypt(self.bytes)
+        
+        return result.toHexString()
+    }
+    
+    func aes_decrypt() -> String {
+        if let result = try? Security.aes().decrypt(Array<UInt8>(hex: self)) {
+            return String(bytes: result, encoding: .utf8) ?? ""
+        } else {
+            return ""
+        }
+    }
+}

@@ -60,8 +60,6 @@ public extension String {
         } else {
             return ""
         }
-        
-//        return String(bytes: result, encoding: .utf8) ?? ""
     }
 }
 
