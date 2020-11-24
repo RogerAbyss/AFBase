@@ -9,8 +9,6 @@ import Foundation
 
 public class Assets {
     public static let placeholder = Assets.image("placeholder")
-    public static let close = Assets.image("close")
-    public static let back = Assets.image("arrow-left")
     
     public static func image(_ imageName: String) -> UIImage {
         if let path = Bundle.main.path(forResource: "AFramework", ofType: "bundle") {
